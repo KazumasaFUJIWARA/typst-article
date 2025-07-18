@@ -1,6 +1,6 @@
-#import "../styles/math.typ" : *
-#show: mythm.with(
-  title: "math.typのサンプルドキュメント",
+#import "../styles/jnote.typ" : *
+#show: jnote.with(
+  title: "jnote.typのサンプルドキュメント",
   author: "藤原 和将",
   date: "2025-07-18"
  )

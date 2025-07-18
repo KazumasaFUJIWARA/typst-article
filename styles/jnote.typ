@@ -165,7 +165,7 @@
 	align(right)[□]
 }
 
-#let mythm(
+#let jnote(
 	title: none,
 	affiliation: none,
 	author: none,
