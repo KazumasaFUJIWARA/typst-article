@@ -57,7 +57,7 @@
 				*#context counter(figure.where(kind: "theorem")).display()*
 				#if title != none [* : #title *]
 				#v(-0.3em)
-				#it
+				#text(style: "oblique")[#it]
 			]
 		]
 	]
@@ -77,7 +77,7 @@
 				*#context counter(figure.where(kind: "theorem")).display()*
 				#if title != none [* : #title *]
 				#v(-0.3em)
-				#it
+				#text(style: "oblique")[#it]
 			]
 		]
 	]
@@ -97,7 +97,7 @@
 				*#context counter(figure.where(kind: "theorem")).display()*
 				#if title != none [* : #title *]
 				#v(-0.3em)
-				#it
+				#text(style: "oblique")[#it]
 			]
 		]
 	]
@@ -117,7 +117,7 @@
 				*#context counter(figure.where(kind: "theorem")).display()*
 				#if title != none [* : #title *]
 				#v(-0.3em)
-				#it
+				#text(style: "oblique")[#it]
 			]
 		]
 	]
@@ -137,7 +137,7 @@
 				*#context counter(figure.where(kind: "theorem")).display()*
 				#if title != none [* : #title *]
 				#v(-0.3em)
-				#it
+				#text(style: "oblique")[#it]
 			]
 		]
 	]
