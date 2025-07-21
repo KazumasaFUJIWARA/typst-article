@@ -1,0 +1,4 @@
+[package]
+name = "article"
+version = "1.0.0"
+entrypoint = "article.typ"
