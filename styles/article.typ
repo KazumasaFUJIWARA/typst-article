@@ -36,7 +36,7 @@
 				*Theorem *
 				*#context counter(figure.where(kind: "theorem")).display()*
 				#if title != none [* : #title *]
-				#v(-0.3em)
+				#h(0.5em)
 				#text(style: "oblique")[#it]
 			]
 		]
@@ -56,7 +56,7 @@
 				*Lemma *
 				*#context counter(figure.where(kind: "theorem")).display()*
 				#if title != none [* : #title *]
-				#v(-0.3em)
+				#h(0.5em)
 				#text(style: "oblique")[#it]
 			]
 		]
@@ -76,7 +76,7 @@
 				*Proposition *
 				*#context counter(figure.where(kind: "theorem")).display()*
 				#if title != none [* : #title *]
-				#v(-0.3em)
+				#h(0.5em)
 				#text(style: "oblique")[#it]
 			]
 		]
@@ -96,7 +96,7 @@
 				*Corollary *
 				*#context counter(figure.where(kind: "theorem")).display()*
 				#if title != none [* : #title *]
-				#v(-0.3em)
+				#h(0.5em)
 				#text(style: "oblique")[#it]
 			]
 		]
@@ -116,7 +116,7 @@
 				*Definition *
 				*#context counter(figure.where(kind: "theorem")).display()*
 				#if title != none [* : #title *]
-				#v(-0.3em)
+				#h(0.5em)
 				#text(style: "oblique")[#it]
 			]
 		]
@@ -136,7 +136,7 @@
 				*Remark *
 				*#context counter(figure.where(kind: "theorem")).display()*
 				#if title != none [* : #title *]
-				#v(-0.3em)
+				#h(0.5em)
 				#text(style: "oblique")[#it]
 			]
 		]
@@ -157,7 +157,7 @@
 				*Example *
 				*#context counter(figure.where(kind: "theorem")).display()*
 				#if title != none [* : #title *]
-				#v(-0.3em)
+				#h(0.5em)
 				#it
 			]
 		]
