@@ -29,15 +29,16 @@
 		supplement: "Theorem",
 	)[
 		#block(
-			inset: 0pt,
 			width: 100%,
 		)[
 			#align(left)[
-				*Theorem *
-				*#context counter(figure.where(kind: "theorem")).display()*
-				#if title != none [* : #title *]
-				#h(0.5em)
-				#text(style: "oblique")[#it]
+				#text(style: "oblique")[
+					*Theorem *
+					*#context counter(figure.where(kind: "theorem")).display()*
+					#if title != none [* : #title *]
+					#h(0.5em)
+					#it
+				]
 			]
 		]
 	]
@@ -53,11 +54,13 @@
 			width: 100%,
 		)[
 			#align(left)[
-				*Lemma *
-				*#context counter(figure.where(kind: "theorem")).display()*
-				#if title != none [* : #title *]
-				#h(0.5em)
-				#text(style: "oblique")[#it]
+				#text(style: "oblique")[
+					*Lemma *
+					*#context counter(figure.where(kind: "theorem")).display()*
+					#if title != none [* : #title *]
+					#h(0.5em)
+					#it
+				]
 			]
 		]
 	]
@@ -73,11 +76,13 @@
 			width: 100%,
 		)[
 			#align(left)[
-				*Proposition *
-				*#context counter(figure.where(kind: "theorem")).display()*
-				#if title != none [* : #title *]
-				#h(0.5em)
-				#text(style: "oblique")[#it]
+				#text(style: "oblique")[
+					*Proposition *
+					*#context counter(figure.where(kind: "theorem")).display()*
+					#if title != none [* : #title *]
+					#h(0.5em)
+					#it
+				]
 			]
 		]
 	]
@@ -93,11 +98,13 @@
 			width: 100%,
 		)[
 			#align(left)[
-				*Corollary *
-				*#context counter(figure.where(kind: "theorem")).display()*
-				#if title != none [* : #title *]
-				#h(0.5em)
-				#text(style: "oblique")[#it]
+				#text(style: "oblique")[
+					*Corollary *
+					*#context counter(figure.where(kind: "theorem")).display()*
+					#if title != none [* : #title *]
+					#h(0.5em)
+					#it
+				]
 			]
 		]
 	]
@@ -113,11 +120,13 @@
 			width: 100%,
 		)[
 			#align(left)[
-				*Definition *
-				*#context counter(figure.where(kind: "theorem")).display()*
-				#if title != none [* : #title *]
-				#h(0.5em)
-				#text(style: "oblique")[#it]
+				#text(style: "oblique")[
+					*Definition *
+					*#context counter(figure.where(kind: "theorem")).display()*
+					#if title != none [* : #title *]
+					#h(0.5em)
+					#it
+				]
 			]
 		]
 	]
@@ -133,11 +142,13 @@
 			width: 100%,
 		)[
 			#align(left)[
-				*Remark *
-				*#context counter(figure.where(kind: "theorem")).display()*
-				#if title != none [* : #title *]
-				#h(0.5em)
-				#text(style: "oblique")[#it]
+				#text(style: "oblique")[
+					*Remark *
+					*#context counter(figure.where(kind: "theorem")).display()*
+					#if title != none [* : #title *]
+					#h(0.5em)
+					#it
+				]
 			]
 		]
 	]
@@ -150,15 +161,16 @@
 		supplement: "Example",
 	)[
 		#block(
-			inset: 12pt,
 			width: 100%,
 		)[
 			#align(left)[
-				*Example *
-				*#context counter(figure.where(kind: "theorem")).display()*
-				#if title != none [* : #title *]
-				#h(0.5em)
-				#it
+				#text(style: "oblique")[
+					*Example *
+					*#context counter(figure.where(kind: "theorem")).display()*
+					#if title != none [* : #title *]
+					#h(0.5em)
+					#it
+				]
 			]
 		]
 	]
